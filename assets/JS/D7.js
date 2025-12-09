@@ -53,12 +53,12 @@ console.log(sum); */
 /* ESERCIZIO 6 (map)
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
-
-/* const n = 2;
-
-const MaponlyNumbers = onlyNumbers.map((number) => number * n);
-
-console.log(MaponlyNumbers); */
+const onlyNumbers = [10, 2, 67, 98, 69, 46];
+function exercise6(array, n) {
+  const MaponlyNumbers = array.map((number) => number + n);
+  return MaponlyNumbers;
+}
+console.log(exercise6(onlyNumbers, 2));
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
