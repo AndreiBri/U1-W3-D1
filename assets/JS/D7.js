@@ -58,8 +58,8 @@ function exercise6(array, n) {
   const MaponlyNumbers = array.map((number) => number + n);
   return MaponlyNumbers;
 }
+
 console.log(exercise6(onlyNumbers, 2));
-exercise6();
 
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
